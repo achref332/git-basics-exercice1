@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+</head>
+<body>
+   
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>This is a brief introduction to who I am and what I do</p>
+  </section>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate developer who loves building webs and learning new technologies</p>
+    
+
+    <h3>Listen to My Song</h3>
+    <audio controls>
+      <source src="audio" type="audio/mpeg">
+    </audio>
+  </section>
+
+ 
+  <section id="work">
+    <h2>My Work</h2>
+    <ul>
+      <li>Project 1 - HTML, CSS</li>
+      <li>Project 2 - JavaScript, React</li>
+      <li>Project 3 - Python, Django</li>
+    </ul>
+    
+    
+    <h3>my video</h3>
+    <video width="320" height="240" controls>
+      <source src="video/project-video.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Experience</th>
+          <th>Skills</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2023</td>
+          <td>conceptur</td>
+          <td>solid works, Catia, Mastercam</td>
+        </tr>
+        <tr>
+          <td>2025</td>
+          <td>Full Stack Developer</td>
+          <td>html, css</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required /><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required /><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+ 
+  <footer>
+    <p> My Portfolio All rights reserved</p>
+  </footer>
+ 
+</body>
+</html>
